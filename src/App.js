@@ -1,5 +1,5 @@
 import './App.css';
-import Page from './Page';
+import Page from './Pages/Page';
 import 'leaflet/dist/leaflet.css';
 
 function App() {
