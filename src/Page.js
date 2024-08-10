@@ -75,16 +75,18 @@ const BusinessLocation = () => {
             <img src={supportIcon} alt="Support" className="w-4 h-4 mr-2"/>
             Support
           </button>
-          <div className="flex items-start w-full text-left">
-            <img src={signInIcon} alt="Sign In" className="w-4 h-4 mr-2 mt-1"/>
-            <div className="pr-4">
-              <div className="font-semibold text-white">Sign in</div>
-              <div className="text-sm text-white text-opacity-80">
+          <div>
+            <button className="flex items-start w-full text-left">
+              <img src={signInIcon} alt="Sign In" className="w-4 h-4 mr-2 mt-1"/>
+              <div className="pr-4">
+                <div className="font-semibold text-white">Sign in</div>
+              </div>
+            </button>
+            <div className="text-sm text-white text-opacity-80 pl-6">
                 Save your progress and keep all scenarios in one place
               </div>
-            </div>
           </div>
-        </div>
+          </div>
       </div>
       <div className="flex-grow flex flex-col">
         <div className="w-full p-6 flex items-center justify-between bg-white border-b-2">
